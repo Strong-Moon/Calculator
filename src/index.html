@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+
+<body>
+    <div class="calculator">
+        
+        <input id="inp1" class="textview" name="textview">
+        
+        
+
+        <div class="body_part">
+            <button id="C_key" class=" key" onclick = "C_op()">
+                C
+            </button>
+            <button id="delete" class=" key" onclick = "delete_op()">
+                DEL
+            </button>
+            <button id="divide" class=" key" onclick = "divide_op()">
+                /
+            </button>
+            <button id="multiply" class="key" onclick = "multiply_op()">
+                *
+            </button>
+            <button id="seven" class="key" onclick = "insert_numbers(7)">
+                7
+            </button>
+            <button id="eight" class="key" onclick = "insert_numbers(8)">
+                8
+            </button>
+            <button id="nine" class="key" onclick = "insert_numbers(9)">
+                9 
+            </button>
+            <button id="minus" class="key"onclick = "minus_op(8)">
+                -
+            </button>
+            <button id="four" class="key" onclick = "insert_numbers(4)">
+                4
+            </button>
+            <button id="five" class=" key" onclick = "insert_numbers(5)">
+                5
+            </button>
+            <button id="six" class=" key" onclick = "insert_numbers(6)">
+                6
+            </button>
+            <button id="plus" class=" key" onclick = "plus_op()">
+                +
+            </button>
+            <button id="one" class=" key" onclick = "insert_numbers(1)">
+                1
+            </button>
+            <button id="two" class=" key" onclick = "insert_numbers(2)">
+                2
+            </button>
+            <button id="three" class=" key" onclick = "insert_numbers(3)"> 
+                3
+            </button>
+            <button id="dot" class=" key" onclick = "l_pha_op()">
+                (
+            </button>
+            <button id="l_pha" class=" key" onclick = "r_pha_op()">
+                )
+            </button>
+            <button id="zero"  class=" key" onclick = "insert_numbers(0)">
+                0
+            </button>
+            <button id="r_pha" class=" key" onclick = "dot_op()">
+                .
+            </button>
+            <button id="equal" class=" key" onclick = "equal_op()">
+                =
+            </button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
