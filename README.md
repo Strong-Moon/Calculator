@@ -15,7 +15,7 @@ With HTML,CSS,JavaScript and JQuery I did a calculator
 # Why Did I Do Calculator?
 
 In my opinion, It was one of the best project that develop programmer's skills. That's why I do this project.
-like(DOM, JS, CSS, HTML)
+like(DOM, JS, CSS, HTML). I am gonna add some effect.
 
 # Test of the Calculator
 
